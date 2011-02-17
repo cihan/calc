@@ -14,11 +14,11 @@ def carp(a,b):
 	return sonuc
 
 def bol(a,b):
-	sonuc=a/b
+	sonuc=(a/1.0/b)
 	return sonuc
 
-a= int(raw_input("İlk sayıyı giriniz: "))
-b= int(raw_input("İkinci sayıyı giriniz: "))
+a= input("İlk sayıyı giriniz: ")
+b= input("İkinci sayıyı giriniz: ")
 islem = raw_input("İşlem: \ntopla-cikar-carp-bol\n")
 
 if islem == "topla":
