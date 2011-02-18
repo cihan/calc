@@ -14,7 +14,7 @@ def carp(a,b):
 	return sonuc
 
 def bol(a,b):
-	sonuc=(a/1.0/b)
+	sonuc=((a/1.0)/b)
 	return sonuc
 
 a= input("İlk sayıyı giriniz: ")
@@ -31,4 +31,3 @@ elif islem == "bol":
 	print bol(a,b)
 else:
 	print "İşlemi yanlış girdiniz..."
-	
